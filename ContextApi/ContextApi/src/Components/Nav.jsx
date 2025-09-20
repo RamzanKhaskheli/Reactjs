@@ -41,6 +41,10 @@ const Nav = () => {
             }} to="/product">
             Product
             </NavLink>
+
+            <Link to="/a">AAAA</Link>
+            <Link to="/b">BBBB</Link>
+            <Link to="/c">CCCC</Link>
           </nav>
   )
 }

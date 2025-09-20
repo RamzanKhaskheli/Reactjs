@@ -5,6 +5,9 @@ import User from '../Components/User'
 import About from '../Components/About'
 import UserDetail from '../Components/UserDetail'
 import Product from '../Components/Product'
+import A from '../Components/A'
+import B from '../Components/B'
+import C from '../Components/C'
 
 const Routing = () => {
   return (
@@ -16,6 +19,9 @@ const Routing = () => {
                 </Route>
                 <Route path="/about" element={<About/>}/>
                 <Route path="/product" element={<Product/>}/>
+                <Route path="/a" element={<A/>}/>
+                <Route path="/b" element={<B/>}/>
+                <Route path="/c" element={<C/>}/>
           </Routes>
   )
 }
