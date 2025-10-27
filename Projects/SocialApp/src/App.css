@@ -1,0 +1,26 @@
+.app-container{
+  display: flex;
+  
+}
+
+.content{
+  width: 100%;
+}
+
+
+.posts{
+  min-height: 600px;
+  max-height: 600px;
+  overflow: auto;
+}
+.badge{
+  margin: 5px;
+  
+
+}
+
+.form{
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
